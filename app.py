@@ -30,6 +30,11 @@ prompt = [
     many entries of records are present?,
     the SQL command will be something like this 
     SELECT COUNT(*) from STUDENT;
+    \nExample 2 - How 
+    many students study in DS Class,
+    the SQL command will be something like this 
+    SELECT COUNT(*) from STUDENT
+    WHERE CLASS = "DS";
     also the SQL query should not have ''' in beginning or end 
     and sql word in the output.
     """
